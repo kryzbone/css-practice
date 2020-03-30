@@ -1,0 +1,56 @@
+body {
+	background-color: lightblue;
+
+}
+
+span {
+	color: red;
+}
+
+input {
+	width: 50%;
+	margin: 30px 5px 10px;
+	border: none;
+	border-bottom: 2px solid silver;
+	transition: border-bottom 0.7s ease-out;
+}
+
+input:focus {
+	border-bottom:2px solid blue;
+}
+
+input[type=submit] {
+	border: none;
+	width: 100px;
+	border-radius: 5px;
+	background-color: blue;
+	padding:10px;
+}
+
+/*.intro {
+	border: none;
+	border-top: 10px solid blue;
+}*/
+
+.form {
+	display: flex;
+	flex-direction:column;
+	margin: 20px 30%;
+
+}
+
+.form section {
+	background-color: white;
+	margin: 5px;
+	padding: 20px;
+	border:1px solid silver;
+	border-radius: 10px;
+}
+
+textarea {
+	border: none;
+	border-bottom: 2px solid silver;
+}
+
+
+
